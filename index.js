@@ -7,6 +7,12 @@ document.addEventListener("keydown", function(e) {
   }
 });
 
+document.addEventListener("keydown", function(e) {
+  if (e.key === "ArrowLRightt") {
+    moveDodgerRight();
+  }
+});
+
 
 function moveDodgerLeft() {
   let leftNumbers = dodger.style.left.replace("px", "");
