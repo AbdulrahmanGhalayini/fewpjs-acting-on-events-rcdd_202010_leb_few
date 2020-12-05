@@ -5,3 +5,6 @@ console.log(dodger.style.left); // "180px"
 console.log(dodger.style.bottom); // "0px"
 dodger.style.bottom = "100px";
 dodger.style.bottom = "0px";
+document.addEventListener("keydown", function(e) {
+  console.log(e.key);
+});
